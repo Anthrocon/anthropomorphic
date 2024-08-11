@@ -1,0 +1,10 @@
+{{- partial "banner.html" . }}
+<div class="main-section">
+    {{- partial "section.html" . }}
+    <div style="flex: 1;">
+        <section>
+            {{ .Content }}
+        </section>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+</div>

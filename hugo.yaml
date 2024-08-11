@@ -1,0 +1,8 @@
+baseURL: "https://anthrocon.org"
+languageCode: "en-US"
+title: "anthropomorphic"
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.123.0"
